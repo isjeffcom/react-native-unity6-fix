@@ -1,4 +1,4 @@
-# @azesmway/react-native-unity
+# @isjeffcom/react-native-unity6-fix
 
 The plugin that allows you to embed a Unity project into React Native as a full-fledged component. The plugin now supports the new architecture.
 
@@ -32,16 +32,16 @@ Attention! Added support for Unity 2023 and above
 ## Install this package in your react-native project:
 
 ```sh
-npm install @azesmway/react-native-unity
+npm install @isjeffcom/react-native-unity6-fix
 
 or
 
-yarn add @azesmway/react-native-unity
+yarn add @isjeffcom/react-native-unity6-fix
 ```
 
 ## Configure your Unity project:
 
-1. Copy the contents of the folder `unity` to the root of your Unity project. This folder contains the necessary scripts and settings for the Unity project. You can find these files in your react-native project under `node_modules/@azesmway/react-native-unity/unity`. This is necessary to ensure iOS has access to the `NativeCallProxy` class from this library.
+1. Copy the contents of the folder `unity` to the root of your Unity project. This folder contains the necessary scripts and settings for the Unity project. You can find these files in your react-native project under `node_modules/@isjeffcom/react-native-unity6-fix/unity`. This is necessary to ensure iOS has access to the `NativeCallProxy` class from this library.
 
 2. (optional) If you're following along with the example, you can add the following code to the `ButtonBehavior.cs` script in your Unity project. This allows the button press in Unity to communicate with your react-native app.
 
@@ -146,7 +146,7 @@ If you're using expo, you're done. The built-in expo plugin will handle the rest
 ```jsx
 import React, { useRef, useEffect } from 'react';
 
-import UnityView from '@azesmway/react-native-unity';
+import UnityView from '@isjeffcom/react-native-unity6-fix';
 import { View } from 'react-native';
 
 interface IMessage {

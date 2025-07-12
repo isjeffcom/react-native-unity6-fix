@@ -1,7 +1,7 @@
 {
-  "name": "@azesmway/react-native-unity",
-  "version": "1.0.11",
-  "description": "React Native Unity",
+  "name": "@isjeffcom/react-native-unity6-fix",
+  "version": "1.0.0",
+  "description": "React Native Unity plugin with Unity 6 & Expo Router compatibility fixes",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
   "types": "lib/typescript/index.d.ts",
@@ -39,18 +39,24 @@
     "react-native",
     "ios",
     "android",
-    "unity"
+    "unity",
+    "unity6",
+    "expo",
+    "expo-router",
+    "unity-integration",
+    "unity-player",
+    "react-native-unity"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/azesmway/react-native-unity.git"
+    "url": "git+https://github.com/isjeffcom/react-native-unity6-fix.git"
   },
-  "author": "Alexey Zolotaryov <azesm@me.com> (https://github.com/azesmway)",
+  "author": "Jeff <wu.jianfeng@soda-game.art> (https://github.com/isjeffcom)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/azesmway/react-native-unity/issues"
+    "url": "https://github.com/isjeffcom/react-native-unity6-fix/issues"
   },
-  "homepage": "https://github.com/azesmway/react-native-unity#readme",
+  "homepage": "https://github.com/isjeffcom/react-native-unity6-fix#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
     "access": "public"
